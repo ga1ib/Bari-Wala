@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import logo from '../assets/logo.webp'
+import logo from '../assets/logo.png'
 import { RiCloseLine, RiMenu3Fill, RiMenu3Line } from '@remixicon/react'
 const LINKS = [
     { name: 'Services', link: '/' },
@@ -22,7 +22,7 @@ return (
         <div className='uppercase max-w-7xl mx-auto flex justify-between items-center py-8'>
             <div className='pl-2'>
                 <a href="#">
-                    <img src={logo} width={150 } height={15} alt="VAstuSpaze" />
+                    <img src={logo} width={60 } height={15} alt="VAstuSpaze" />
                 </a>
             </div>
             <div className='md:hidden'>
