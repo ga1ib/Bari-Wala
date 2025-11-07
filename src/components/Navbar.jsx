@@ -3,12 +3,14 @@ import { useState } from 'react'
 import logo from '../assets/logo.png'
 import { RiCloseLine, RiMenu3Fill, RiMenu3Line } from '@remixicon/react'
 const LINKS = [
-    { name: 'Services', link: '/' },
-    { name: 'Portfolio', link: '/portfolio' },
-    { name: 'About', link: '/about' },
-    { name: 'Reviews', link: '/reviews' },
-    { name: 'Contact', link: '/contact' }
+    {name: 'Home', link: '/'},
+    {name: 'Services', link: '#services'},
+    {name: 'portfolio', link: '#portfolio'},
+    {name: 'About', link: '#about'},
+    {name: 'Reviews', link: '#reviews'},
+    {name: 'Contact', link: '#contact'},
 ]
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
